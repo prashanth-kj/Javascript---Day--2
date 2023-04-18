@@ -1,0 +1,69 @@
+Document Object:
+--------------- 
+    * The document object represent a web page that is loaded in the browser. 
+	* By accessing the document object, we can access the element in the HTML page. 
+	* With the help of document objects, we can add dynamic content to our web page.
+	
+Window Object:
+-------------  
+    * The window object is the topmost object of the DOM hierarchy. 
+	* It represents a browser window or frame that displays the contents of the webpage. 
+	* Whenever a window appears on the screen to display the contents of the document, the window object is created. 	
+	
+	
+	   ---------------------------------------------------|--------------------------------------------------------------
+	                Document                              |                  window
+       ---------------------------------------------------|--------------------------------------------------------------					   
+	  	                                                  |
+     *   It represents any HTML document or web page      | *  It represents a browser window or frame that 
+	     that is loaded in the browser.                   |    displays the contents of the webpage. 
+	                                                      |
+	 *   It is loaded inside the window.	              | *  It is the very first object that is loaded in the browser.
+	                                                      |
+	 *   It is the object of window property.             | *  It is the object of the browser.
+	                                                      |
+	 *   All the tags, elements with attributes in        | *  Global objects, functions, and variables of JavaScript 
+         HTML are part of the document.               	  |    are members of the window object.                        
+		                                                  |
+	 *   We can access the document from a window         | *  We can access the window from the window only.
+	     using the window.document                        |    
+		                                                  |
+	 *	 The document is part of BOM and dom.	          | *  The window is part of BOM, not DOM.
+														  |
+	 *   syntax:                                          | *  syntax: 
+                 document.propertyname;	                  |            window.propertyname;
+       --------------------------------------------------------------------------------------------------------------------
+
+
+Methods of document object:
+--------------------------
+
+   * write("string")	     - writes the given string on the doucment.
+   * writeln("string")       - writes the given string on the doucment with newline character at the end.
+   * getElementById()	     - returns the element having the given id value.
+   * getElementsByName()	 - returns all the elements having the given name value.
+   * getElementsByTagName()	 - returns all the elements having the given tag name.
+   * getElementsByClassName()- returns all the elements having the given class name.
+
+
+Methods of window object
+------------------------
+
+   * alert()	  - displays the alert box containing message with ok button.
+   * confirm()    - displays the confirm dialog box containing message with ok and cancel button.
+   * prompt()     - displays a dialog box to get input from the user.
+   * open()	      - opens the new window.
+   * close()	  - closes the current window.
+   * setTimeout() - performs action after specified time like calling function, evaluating expressions etc.
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+
+	  
+	  
+
+
+
+
